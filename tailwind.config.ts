@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Car wash brand colors
+				'wash-clean': '#0BC5EA',
+				'wash-trust': '#4299E1',
+				'wash-success': '#48BB78',
+				'wash-background': '#EDF2F7',
+				'wash-text': '#1A202C'
+			},
+			fontFamily: {
+				'exo': ['Exo 2', 'sans-serif'],
+				'roboto': ['Roboto', 'sans-serif'],
+				'orbitron': ['Orbitron', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
